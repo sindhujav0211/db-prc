@@ -1,0 +1,8 @@
+# This workflow will build a MuleSoft project and deploy to CloudHub
+
+name: Build and Deploy to Sandbox
+on:
+  workflow_call:
+jobs:
+  call-workflow-1-in-local-repo:
+    uses: sindhujav0211/db-sys/blob/main/.github/workflows/main.yml@main
